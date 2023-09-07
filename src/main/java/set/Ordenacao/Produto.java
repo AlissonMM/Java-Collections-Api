@@ -13,7 +13,7 @@ public class Produto implements Comparable<Produto>{
 
     @Override
     public int compareTo(Produto p) {
-        //compara por nome por ordem aufabetica
+        //compara por nome por ordem alfabetica
         return nome.compareToIgnoreCase(p.getNome());
     }
 
